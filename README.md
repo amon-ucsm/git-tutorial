@@ -1,8 +1,8 @@
 # To do list
-- [Create new repo](#create-new-reposistary)
+- [Create new repo](#create-new-repository)
 - [Creating commit](#creating-commit)
 
-## Create new reposistary ##
+## Create new repository ##
 - Checking git version
     ```
     git --version
