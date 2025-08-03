@@ -1,6 +1,7 @@
 # To do list
 - [Create new repo](#create-new-repository)
 - [Creating commit](#creating-commit)
+- [View history of changes](#view-history-of-changes)
 
 ## Create new repository ##
 - Checking git version
@@ -41,3 +42,18 @@
     git commit -m "Add any commit here"
     ```
 
+## View history of changes ##
+- View log
+    - View full log
+        ```
+        git log
+        ```
+    - View with one line
+        ```
+        git log --oneline
+        ```
+- View specific
+    - Change auther name and date & time
+        ```
+        git log --oneline --auther="git_user_name" --since="2025-08-03 14:19:27"
+        ```
