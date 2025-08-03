@@ -52,8 +52,12 @@
         ```
         git log --oneline
         ```
-- View specific
-    - Change auther name and date & time
+    - View specific //change auther name and date & time
         ```
         git log --oneline --auther="git_user_name" --since="2025-08-03 14:19:27"
+        ```
+- Show changes history of specific file
+    - The number are you can file by using command ``git log --oneline``
+        ```
+        git show 4b5bea1 README.md
         ```
