@@ -52,12 +52,17 @@
         ```
         git log --oneline
         ```
-    - View specific //change auther name and date & time
+    - View specific, change auther name and date & time. The optional are ``--auther=<auther_name>``, ``--sicne=<date and time>``, ``--until=``
         ```
         git log --oneline --auther="git_user_name" --since="2025-08-03 14:19:27"
         ```
-- Show changes history of specific file
-    - The number are you can file by using command ``git log --oneline``
+- Show changes history of specific file. The number are you can file by using command ``git log --oneline``
+    - Formula ``git show <commit_bash> <file_path>``
         ```
         git show 4b5bea1 README.md
         ```
+    - Compare commit ``git diff <bash1> <bash2> <fiel_path>``
+        ```
+        git diff d7989cc 1d6d164 text1.txt
+        ```
+    
