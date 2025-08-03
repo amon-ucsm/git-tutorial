@@ -65,4 +65,13 @@
         ```
         git diff d7989cc 1d6d164 text1.txt
         ```
+- Nevigate to previous commit
+    - ``git checkout <bash>``
+        ```
+        git checkout d7989cc
+        ```
+    - Nevigate to main, ``git checkout <branch>``
+        ```
+        git checkout main
+        ```
     
