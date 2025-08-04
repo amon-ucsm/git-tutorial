@@ -3,7 +3,7 @@
 - [Creating commit](#creating-commit)
 - [View history of changes](#view-history-of-changes)
 - [Branching](#branching)
-
+- [Uploading to publish](#push-to-repository)
 ## Create new repository ##
 - Checking git version
     ```
@@ -87,3 +87,14 @@
         git switch -c new_branch1
         ```
     - Swiching branch ``git checkout <branch_name>`` or ``git switch <branch_name>``
+
+## Push to repository ##
+- Format ``git remote add origin <git_repo_link>``
+    - Example
+    ```
+    git remote add origin https://github.com/amon-ucsm/git-tutorial.git
+    ```
+- Pushing format ``git push -u origin <branch>``
+    ```
+    git push -u origin main
+    ```
