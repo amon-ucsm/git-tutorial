@@ -95,6 +95,7 @@
     git remote add origin https://github.com/amon-ucsm/git-tutorial.git
     ```
 - Pushing format ``git push -u origin <branch>``
+    - Example
     ```
     git push -u origin main
     ```
