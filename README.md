@@ -77,8 +77,20 @@
         ```
 
 ## Branching ##
-- create new branch
-    - ``git checkout -b <branch_name>``
+- Create new branch
+    - View branch list
+        ```
+        git branch
+        ```
+    - Create new branch ``git branch <branch_name>``
+        ```
+        git branch new_branch
+        ```
+    - Switch to branch ``git checkout <branch_anme>``
+        ```
+        git checkout new_branch
+        ```
+    - Create + switch``git checkout -b <branch_name>``
         ```
         git checkout -b new_branch
         ```
@@ -87,7 +99,16 @@
         git switch -c new_branch1
         ```
     - Swiching branch ``git checkout <branch_name>`` or ``git switch <branch_name>``
-
+    
+    - Merge a branch into current branch ``git merge <branch_name>``
+        ```
+        git merge new_branch
+        ```
+    - Deleting branch ``git branch -d <branch_name>``
+        ```
+        git branch -d new_branch1
+        ```
+    
 ## Push to repository ##
 - Format ``git remote add origin <git_repo_link>``
     - Example
