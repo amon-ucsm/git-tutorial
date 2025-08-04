@@ -2,6 +2,7 @@
 - [Create new repo](#create-new-repository)
 - [Creating commit](#creating-commit)
 - [View history of changes](#view-history-of-changes)
+- [Branching](#branching)
 
 ## Create new repository ##
 - Checking git version
@@ -74,4 +75,15 @@
         ```
         git checkout main
         ```
-    
+
+## Branching ##
+- create new branch
+    - ``git checkout -b <branch_name>``
+        ```
+        git checkout -b new_branch
+        ```
+    - Also can use ``git switch -c <branch_name>``
+        ```
+        git switch -c new_branch1
+        ```
+    - Swiching branch ``git checkout <branch_name>`` or ``git switch <branch_name>``
